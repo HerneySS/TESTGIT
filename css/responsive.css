@@ -1,0 +1,153 @@
+/* MIN -> 768px */
+@media (max-width: 1024px) {
+    .tituto_tierra {
+        font-size: 45px;
+    }
+
+    .span_cycling {
+        font-size: 80px;
+    }
+
+
+    .contenedor_titulo {
+        height: 350px
+    }
+
+
+    /* ---------------------NOTICIAS ---------------- */
+    .noticias-cards-noticias .imagen>img {
+        height: 400px;
+    }
+
+    /* ---------------------CONTACTENOS ---------------- */
+    .formulario-contactos .content-inputs button {
+        width: 60%;
+    }
+
+}
+
+
+/* MIN -> 640px */
+@media (max-width: 768px) {
+
+
+    .tituto_tierra {
+        font-size: 35px;
+    }
+
+    .span_cycling {
+        font-size: 60px;
+    }
+
+    .contenedor_titulo {
+        height: 350px
+    }
+
+    .cards-noticias {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    nav {
+        display: none;
+        width: 0px;
+        opacity: 0;
+    }
+
+    main {
+        margin-left: 40px;
+    }
+
+    .icon-hamburguesa {
+        display: flex;
+    }
+
+
+    .footer-content-pricipal span {
+        font-size: 12px;
+
+    }
+
+
+    /* .footer-content{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    } */
+
+
+    .footer-content>div>img {
+        width: 100px;
+        height: 100px;
+    }
+
+
+    /* ---------------------NOTICIAS ---------------- */
+    .noticias-cards-noticias .imagen>img {
+        height: 250px;
+
+    }
+
+
+}
+
+/* MIN -> 300px */
+@media (max-width: 640px) {
+
+
+    .tituto_tierra {
+        font-size: 20px;
+    }
+
+    .span_cycling {
+        font-size: 40px;
+    }
+
+    .search {
+        display: none;
+    }
+
+
+    .contenedor_titulo {
+        height: 250px
+    }
+
+    /* ---------------------CONTACTENOS ---------------- */
+    .formulario-contactos .content-inputs button {
+        width: 80%;
+    }
+
+
+}
+
+
+
+
+
+/* MIN -> 300px */
+@media (max-width: 500px) {
+
+
+
+    .contenedor_titulo {
+        height: 200px
+    }
+
+
+
+
+    .footer-content {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+
+    .footer-content>div {
+        justify-content: left;
+    }
+
+
+
+    /* ---------------------CONTACTENOS ---------------- */
+    .formulario-contactos .content-inputs button {
+        width: 100%;
+    }
+
+
+}

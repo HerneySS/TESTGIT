@@ -1,0 +1,478 @@
+:root {
+  --color-buttom: #0f3f62;
+  /* Definiendo una variable para el color primario */
+  --color-blanco: #fff;
+  /* Definiendo una variable para el color primario */
+  --color-rojo: red;
+  --font-family-magistral-bold: 'Magistral-Bold', sans-serif;
+  --font-family-magistral-black: 'Magistral-Black', sans-serif;
+}
+
+/* FUENTE */
+@font-face {
+  font-family: 'Magistral';
+  /* Puedes elegir cualquier nombre */
+  src: url('../font/Magistral-Regular.otf') format('opentype');
+  /* Ajusta la ruta y el formato según tu tipografía */
+}
+
+@font-face {
+  font-family: 'Magistral-Bold';
+  /* Puedes elegir cualquier nombre */
+  src: url('../font/Magistral-Bold.otf') format('opentype');
+  /* Ajusta la ruta y el formato según tu tipografía */
+}
+
+@font-face {
+  font-family: 'Magistral-Black';
+  /* Puedes elegir cualquier nombre */
+  src: url('../font/MagistralBlack.otf') format('opentype');
+  /* Ajusta la ruta y el formato según tu tipografía */
+}
+
+/* Estilos generales */
+body {
+  /* font-family: Arial, sans-serif; */
+  font-family: 'Magistral', sans-serif;
+  /* Usa el nombre que especificaste en @font-face */
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  /* background-color: #333; */
+  color: white;
+}
+
+.btn-header {
+  background-color: var(--color-buttom);
+  border-radius: 6px;
+}
+
+.logo {
+  margin-left: 45px;
+  font-size: 24px;
+  z-index: 5;
+}
+
+.logo img {
+  width: 200px;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.logo a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+
+.search button,
+.search>a {
+  padding: 5px 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.content_socials {
+  padding: 5px 0px;
+  background-color: var(--color-buttom);
+  border-radius: 10px;
+  width: 110px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.content_socials>strong {
+  margin-top: 5px;
+  color: var(--color-blanco);
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+.content_icons_socials {
+  margin-top: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.content_icons_socials>a {
+  padding: 5px 0px;
+}
+
+.content_icons_socials>a>i {
+  color: var(--color-blanco);
+  font-size: 28px;
+}
+
+.search input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.icon-hamburguesa {
+  position: relative;
+  margin-right: 10px;
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 2px 3px;
+  cursor: pointer;
+  z-index: 10;
+  display: none;
+}
+
+.icon-hamburguesa>i {
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+}
+
+
+body {
+  background: linear-gradient(175deg, #FFFFFF, #3c3c3b);
+}
+
+
+.body-noticias {
+  background: linear-gradient(175deg, #817d7d, #3c3c3b) !important;
+}
+
+
+.section-content {
+  max-width: 1200px;
+  margin: auto;
+  clear: both;
+  position: relative;
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+
+.contenedor_titulo {
+  height: 450px;
+  background-image: url('../img/imagen_ciclista.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tituto_tierra {
+  font-family: 'Magistral-Bold', sans-serif;
+  /* Usa el nombre que especificaste en @font-face */
+  font-size: 70px;
+}
+
+
+.span_cycling {
+  font-family: 'Magistral-Black', sans-serif;
+  /* Usa el nombre que especificaste en @font-face */
+  font-size: 136px;
+  font-weight: bold;
+  color: #fbbb0e;
+  text-shadow: -2px -1px 1px black;
+  line-height: 0.7;
+  letter-spacing: 7px;
+
+}
+
+
+.content-hasclick-aqui>div>a {
+  background-color: var(--color-rojo);
+  color: var(--color-blanco);
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  padding: 3px 13px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.content-hasclick-aqui>div>span {
+  margin-top: 5px;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+/* Menú */
+nav {
+  background-color: transparent;
+  padding: 15px;
+  transition: width 3.9s ease-out, opacity 3.9s ease-out;
+  width: 200px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  height: fit-content;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+nav[active] {
+  display: block;
+  width: 200px;
+  top: 0px;
+  height: -webkit-fill-available;
+  background: #4a4a4a;
+  z-index: 10;
+  opacity: 1;
+}
+
+
+nav[active] .icon-close-menu {
+  display: block;
+}
+
+
+.icon-close-menu {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: var(--color-blanco);
+}
+
+.icon-close-menu>i {
+  font-size: 25px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+
+.menu>li>a {
+  text-decoration: none;
+  width: 100px;
+  height: 35px;
+
+  display: flex;
+  /* Centra vertical */
+  align-items: center;
+  /* Centra horizontal */
+  justify-content: center;
+
+  background: var(--color-buttom);
+  padding: 2px 5px;
+  color: white;
+  border-radius: 10px;
+  font-size: 11px;
+}
+
+/* Estilos para el contenido principal */
+main {
+
+  margin-left: 220px;
+  padding: 0px 20px;
+}
+
+
+
+
+
+/* -------------------NOTICIAS-------------------- */
+
+.cards-noticias {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.cards-noticias .card {
+  height: 250px;
+  position: relative;
+}
+
+.cards-noticias .card>div {
+  height: 50px;
+  position: absolute;
+  width: -webkit-fill-available;
+  bottom: 0;
+  background-color: #1110106b;
+  padding: 15px 20px;
+}
+
+.color-botton-noticia {
+  font-family: 'Magistral-Black', sans-serif;
+  text-decoration: none;
+  width: 100px;
+  background-color: var(--color-rojo);
+  color: var(--color-blanco);
+  border: none;
+  border-radius: 6px;
+  font-size: 11px;
+  padding: 2px 13px;
+  margin-top: 50px;
+}
+
+.span-card-noticia {
+  font-family: 'Magistral-Bold', sans-serif;
+  color: white;
+  margin-top: 10px;
+  font-size: 10px;
+
+
+  /* 2LINEAS Y QUE SEAN CON 3PUNTOS */
+  text-overflow: ellipsis;
+  line-break: anywhere;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cards-noticias .noticia1 {
+  background-image: url(../img/Noticias_1.png);
+}
+
+.cards-noticias .noticia2 {
+  background-image: url(../img/Noticias_2.png);
+}
+
+.cards-noticias .noticia3 {
+  background-image: url(../img/Noticias_3.png);
+}
+
+
+/* --------------------- FOOTER ----------------------- */
+footer {
+  background-color: #20201d;
+  padding: 20px 10px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+
+.footer-content-pricipal {
+  max-width: 1200px;
+  margin: auto;
+  clear: both;
+  position: relative;
+  height: 100%;
+  padding-bottom: 5px;
+}
+
+
+.footer-content-pricipal a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* --------------------- MODULO NOTICIAS ----------------------- */
+.noticias-cards-noticias {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.seperator {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.seperator25px {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.noticias-cards-noticias .imagen>img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.noticias-cards-noticias .titulo>span {
+  font-family: var(--font-family-magistral-bold);
+  font-size: 30px;
+  color: var(--color-blanco);
+}
+
+.noticias-cards-noticias .parrafos>p {
+  font-family: var(--font-family-magistral-bold);
+  font-size: 12px;
+  color: var(--color-blanco);
+}
+
+
+/* --------------------- MODULO CONTACTENOS ----------------------- */
+.cards-contactenos-info {
+  padding: 10px 20px;
+  background: linear-gradient(175deg, #817d7d, #3c3c3b) !important;
+}
+
+.cards-contactenos-info>p {
+  color: var(--color-blanco);
+  font-family: var(--font-family-magistral-bold);
+  font-size: 13px;
+}
+
+
+.formulario-contactos {
+  background-color: var(--color-blanco);
+  padding-bottom: 3px;
+}
+
+.formulario-contactos .content-inputs-border {
+  border: 1.5px solid black;
+  margin: 3px;
+}
+
+.formulario-contactos .titulo {
+  background-color: var(--color-buttom);
+  padding: 15px 10px;
+}
+
+.formulario-contactos .titulo>span {
+  /* font-family: var(--font-family-magistral-black); */
+  font-weight: bold;
+  font-size: 13px;
+  color: var(--color-blanco);
+
+}
+
+.formulario-contactos .content-inputs {
+
+  padding: 10px 30px;
+}
+
+.formulario-contactos .content-inputs label {
+  font-size: 13px;
+}
+
+.formulario-contactos .content-inputs input {
+  height: 35px;
+  font-size: 13px;
+}
+
+.formulario-contactos .content-inputs textarea {
+  font-size: 13px;
+}
+
+
+.formulario-contactos .content-inputs button {
+  height: 35px;
+  background-color: var(--color-rojo);
+  width: 40%;
+  font-size: 13px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  color: var(--color-blanco);
+  cursor: pointer;
+}

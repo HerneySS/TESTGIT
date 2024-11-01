@@ -1,0 +1,84 @@
+.width100{
+  width: 100%;
+}
+.width160px{
+  width: 160px;
+}
+
+.height100{
+  height: 100%;
+}
+
+/* MARGIN */
+.margin-top5px{
+  margin-top: 5px;
+}
+
+
+/* FONT */
+
+.font10px{
+  font-size: 10px;
+}
+.font11px{
+  font-size: 11px;
+}
+.font12px{
+  font-size: 12px;
+}
+.font13px{
+  font-size: 13px;
+}
+.font14px{
+  font-size: 14px;
+}
+.font15px{
+  font-size: 15px;
+}
+.font16px{
+  font-size: 16px;
+}
+.font17px{
+  font-size: 17px;
+}
+.font18px{
+  font-size: 18px;
+}
+
+
+
+/* ---- */
+.font-bold{
+  font-weight: bold;
+}
+.font-family-magitral-bold{
+  font-family: 'Magistral-Bold', sans-serif; /* Usa el nombre que especificaste en @font-face */
+}
+.font-family-magitral-black{
+  font-family: 'Magistral-Black', sans-serif; /* Usa el nombre que especificaste en @font-face */
+}
+
+
+
+
+
+/* FLEX */
+.dflex{
+  display: flex;
+}
+
+.flex-columna{
+  flex-direction: column;
+}
+
+.color-blanco{
+  color: var(--color-blanco);
+}
+
+.centrar-horizontal-center{
+  justify-content: center;
+}
+
+.centrar-vertical-center{
+  align-items: center;
+}
