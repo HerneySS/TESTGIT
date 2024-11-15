@@ -137,7 +137,7 @@ header {
 
 
 body {
-  background: linear-gradient(175deg, #FFFFFF, #3c3c3b);
+  background: linear-gradient(175deg, #ffeeee, #3320208c);
 }
 
 
@@ -475,4 +475,7 @@ footer {
   border-radius: 4px;
   color: var(--color-blanco);
   cursor: pointer;
+}
+.cambiodeColorMasiva{
+  background-color: red;
 }
