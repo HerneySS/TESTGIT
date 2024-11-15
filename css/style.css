@@ -476,3 +476,6 @@ footer {
   color: var(--color-blanco);
   cursor: pointer;
 }
+.formulanuevaatxt{
+  color: white;
+}
