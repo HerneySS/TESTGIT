@@ -476,6 +476,10 @@ footer {
   color: var(--color-blanco);
   cursor: pointer;
 }
+
 .cambiodeColorMasiva{
   background-color: red;
+}
+.formulanuevaatxt{
+  color: white;
 }
