@@ -16,5 +16,5 @@ document.querySelector('.icon-hamburguesa').addEventListener('click', function()
     let menu = document.querySelector('nav');
     // Agregar o modificar atributo
     menu.removeAttribute('active');
-
+    console.log("editado correctamente");
   });
