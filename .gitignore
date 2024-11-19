@@ -1,0 +1,5 @@
+# Ignorar una carpeta y todo su contenido
+/cache/
+
+/.idea/
+.DS_Store
