@@ -1,13 +1,16 @@
-import { createApp, defineAsyncComponent } from 'vue';
+import { createApp } from 'vue';
 
 import { createMemoryHistory, createRouter } from 'vue-router'
 
-import HomeView from '../components/App.vue';
-// const Ciclistas =  defineAsyncComponent(() => await import('../components/App.vue'));
+
+import App from '../components/App.vue';
+const HomeView = () =>  import('../../module/Home/components/home.vue');
 
 const routes = [
   { path: '/', component: HomeView },
-  // { path: '/about', component: AboutView },
+  { path: '/ciclistas', component: () => import('../../module/Ciclistas/componets/ciclistas.vue')},
+  { path: '/tres-grandes', component: () => import('../../module/TresGrandes/components/tresgrandes.vue')},
+  { path: '/contactenos', component: () => import('../../module/Contactenos/contactenos.vue')},
 ]
 
 const router = createRouter({
