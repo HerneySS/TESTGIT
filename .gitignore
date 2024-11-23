@@ -1,5 +1,10 @@
 # Ignorar una carpeta y todo su contenido
 /cache/
 
+/node_modules/
+/dist/
+
 /.idea/
-.DS_Store
+/.DS_Store
+/package-lock.json
+
