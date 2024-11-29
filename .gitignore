@@ -4,8 +4,11 @@
 /node_modules/
 /dist/
 /package-lock.json
-#PHPSTORM
+#PHPSTORM/node_modules/
+/package-lock.json
 /.idea/
 #MAC FILE
 /.DS_Store
+
+/dist/
 

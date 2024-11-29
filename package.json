@@ -1,0 +1,30 @@
+{
+  "name": "TESTGIT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerneySS/TESTGIT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HerneySS/TESTGIT/issues"
+  },
+  "homepage": "https://github.com/HerneySS/TESTGIT#readme",
+  "devDependencies": {
+    "vite": "^5.4.11"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^5.2.0",
+    "vue": "^3.5.13",
+    "vue-router": "^4.4.5"
+  }
+}
