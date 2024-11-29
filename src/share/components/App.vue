@@ -25,10 +25,10 @@
       </div>
       <ul class="menu">
         <li>
-          <router-link to="/">INICIO</router-link>
+          <router-link to="/">HOME</router-link>
         </li>
         <li>
-          <router-link to="/tres-grandes">TRES GRANDES</router-link>
+          <router-link to="/tres-grandes"> GRANDES</router-link>
         </li>
         <li>
           <router-link to="/ciclistas">CICLISTAS</router-link>
