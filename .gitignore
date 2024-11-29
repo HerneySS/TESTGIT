@@ -1,8 +1,14 @@
 # Ignorar una carpeta y todo su contenido
 /cache/
+#JS
 /node_modules/
+/dist/
+/package-lock.json
+#PHPSTORM/node_modules/
 /package-lock.json
 /.idea/
-.DS_Store
+#MAC FILE
+/.DS_Store
+
 /dist/
 
