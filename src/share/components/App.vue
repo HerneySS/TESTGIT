@@ -23,7 +23,7 @@
       <div class="icon-close-menu">
         <i class="bx bxs-caret-left-circle"></i>
       </div>
-      <ul class="menu">
+      <ul class="menu mt-2">
         <li>
           <router-link to="/">INICIO</router-link>
         </li>
