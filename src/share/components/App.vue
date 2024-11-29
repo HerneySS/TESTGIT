@@ -13,7 +13,7 @@
       </div>
 
       <div class="search">
-        <router-link to="/contactenos" class="btn-header">COMUNICATE CON NOSOTROS</router-link>
+        <router-link to="/contactenos" class="btn-header">COMUNICATE CON NOSOTROS  <i class="">(aqui)</i></router-link>
       </div>
     </header>
 
