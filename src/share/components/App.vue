@@ -25,17 +25,17 @@
       </div>
       <ul class="menu">
         <li>
-          <router-link to="/">HOME</router-link>
+          <router-link to="/">INICIO MENU</router-link>
         </li>
         <li>
-          <router-link to="/tres-grandes"> GRANDES</router-link>
+          <router-link to="/tres-grandes">LOS MÁS GRANDES</router-link>
         </li>
         <li>
-          <router-link to="/ciclistas">CICLISTAS</router-link>
+          <router-link to="/ciclistas">LISTA DE CICLISTAS</router-link>
         </li>
         <li>
           <div class="content_socials">
-            <strong>Redes sociales</strong>
+            <strong>Redes</strong>
             <div class="content_icons_socials">
               <a target="_blank" href="https://instagram.com/colombiatierradeescarabajos?igshid=NzZlODBkYWE4Ng=="> <i
                   class="bx bxl-instagram"></i></a>
@@ -68,10 +68,10 @@
 
         <div>
           <div>
-            <a href="ciclistas.html" class="color-blanco font-bold  font-family-magitral-black font13px">CICLISTAS</a>
+            <a href="ciclistas.html" class="color-blanco font-bold  font-family-magitral-black font13px">LISTA DE PARTICIPANTES</a>
           </div>
           <div class="dflex flex-columna margin-top5px">
-            <span class="color-blanco">Nairo Quintana</span>
+            <span class="color-blanco">Jacinto Quintana</span>
             <span class="color-blanco">Egan Bernal</span>
             <span class="color-blanco">Miguel Angel López</span>
           </div>
@@ -80,8 +80,7 @@
 
         <div>
           <div>
-            <a href="tres_grandes.html" class="color-blanco font-bold  font-family-magitral-black font13px">TRES
-              GRANDES</a>
+            <a href="tres_grandes.html" class="color-blanco font-bold  font-family-magitral-black font13px">LOS GRANDES GRANDES</a>
           </div>
           <div class="dflex flex-columna margin-top5px">
             <span class="color-blanco">Giro de Italia</span>
