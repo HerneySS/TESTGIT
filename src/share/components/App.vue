@@ -1,8 +1,8 @@
 <template>
   
-  <section class="section-content">
+  <section class="relative max-w-screen-2xl mx-auto">
     <!-- HEADER -->
-    <header>
+    <header class="flex justify-between items-center p-4 text-white">
 
       <div class="logo dflex centrar-vertical-center">
         <!-- ICON HAMBURGUESA -->
@@ -13,7 +13,7 @@
       </div>
 
       <div class="search">
-        <router-link to="/contactenos" class="btn-header">COMUNICATE CON NOSOTROS</router-link>
+        <router-link to="/contactenos" class="bg-sky-950 rounded">COMUNICATE CON NOSOTROS</router-link>
       </div>
     </header>
 
