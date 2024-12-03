@@ -12,44 +12,14 @@
         <router-link to="/"><img src="../../../img/logo_primario.png" alt=""></router-link>
       </div>
 
-      <div class="search">
-        <router-link to="/contactenos" class="bg-sky-950 rounded">COMUNICATE CON NOSOTROS</router-link>
+      <div class="">
+        <router-link to="/contactenos" class="bg-sky-950 px-2 py-1 cursor-pointer rounded">COMUNICATE CON NOSOTROS</router-link>
       </div>
     </header>
 
 
     <!-- MENU -->
-    <nav>
-      <div class="icon-close-menu">
-        <i class="bx bxs-caret-left-circle"></i>
-      </div>
-      <ul class="menu mt-2">
-        <li>
-          <router-link to="/">INICIO</router-link>
-        </li>
-        <li>
-          <router-link to="/tres-grandes">TRES GRANDES</router-link>
-        </li>
-        <li>
-          <router-link to="/ciclistas">CICLISTAS</router-link>
-        </li>
-        <li>
-          <div class="content_socials">
-            <strong>Redes sociales</strong>
-            <div class="content_icons_socials">
-              <a target="_blank" href="https://instagram.com/colombiatierradeescarabajos?igshid=NzZlODBkYWE4Ng=="> <i
-                  class="bx bxl-instagram"></i></a>
-              <a target="_blank" href="https://x.com/CEscarabajos?t=o3Ok_wsC_mTRV2AU8ui8yg&s=09"> <i
-                  class="bx bxl-twitter"></i></a>
-              <a target="_blank" href="https://www.youtube.com/@Tierracycling"> <i class="bx bxl-youtube"></i></a>
-              <a target="_blank" href="https://www.facebook.com/colombiatierradeescarabajos?mibextid=ZbWKwL"> <i
-                  class="bx bxl-facebook"></i></a>
-            </div>
-
-          </div>
-        </li>
-      </ul>
-    </nav>
+    <header-component></header-component>
 
     <!-- CONTENIDO DE TITULO Y ETIQUETAS -->
     <router-view></router-view>
@@ -114,9 +84,12 @@
 
 
 <script>
+import { defineAsyncComponent } from 'vue';
 export default {
   components:{
-
+    'header-component' : defineAsyncComponent(() =>
+      import('./Header.vue')
+    ),
   }
 }
 </script>
