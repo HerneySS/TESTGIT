@@ -3,12 +3,12 @@
     <main>
 
       <!-- TITULOS -->
-      <div class="width100 contenedor_titulo">
+    <div :style="'background-image: url(../img/imagen_ciclista.png)'" class="w-full h-[450px]">
         <div>
-          <span class="tituto_tierra">TIERRA</span>
+          <span :style="'font-family: Magistral-Bold, sans-serif'" class="text-7xl">TIERRA</span>
         </div>
         <div>
-          <span class="span_cycling">CYCLING</span>
+          <span class="text-9xl font-semibold tex">CYCLING</span>
         </div>
         <div class="content-hasclick-aqui">
           <div>
