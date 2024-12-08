@@ -8,14 +8,14 @@
           <span :style="'font-family: Magistral-Bold, sans-serif'" class="text-7xl">TIERRA</span>
         </div>
         <div>
-          <span class="text-9xl font-semibold tex">CYCLING</span>
+          <span class="text-9xl font-semibold text-amber-400">CYCLING</span>
         </div>
-        <div class="content-hasclick-aqui">
+        <div class="">
           <div>
-            <a target="_blank" href="contactenos.html">HAZ CLIC AQUÍ</a>
+            <a target="_blank" class="bg-red-600 text-white border-none rounded-md text-sm py-0.5 px-3 mt-14" href="contactenos.html">HAZ CLIC AQUÍ</a>
           </div>
           <div>
-            <span>CONOCE MAS DE NOSOTROS</span>
+            <span class="mt-1 text-[8px] font-semibold">CONOCE MAS DE NOSOTROS</span>
           </div>
         </div>
       </div>
@@ -76,6 +76,16 @@
 
 <script>
 export default {
+  data() {
+    return {
+      'noticias': [
+        {
+          'href': '',
+          'href': '',
+        }
+      ],
+    }
+  },
   components:{}
 }
 </script>
