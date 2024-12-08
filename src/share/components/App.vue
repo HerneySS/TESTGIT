@@ -13,7 +13,9 @@
       </div>
 
       <div class="">
-        <router-link to="/contactenos" class="bg-sky-950 px-2 py-1 cursor-pointer rounded">COMUNICATE CON NOSOTROS</router-link>
+        <router-link to="/contactenos" class="bg-sky-950 px-2 py-1 cursor-pointer rounded">
+          COMUNICATE CON NOSOTROS AQUI
+        </router-link>
       </div>
     </header>
 
